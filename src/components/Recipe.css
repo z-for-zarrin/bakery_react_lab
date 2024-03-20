@@ -5,5 +5,12 @@
     flex-direction: column;
     border: #E85F5C;
     border-style: solid;
-    padding-left: 1em;
+    padding: 1em;
+}
+
+button {
+    background-color: #E85F5C;
+    color: cornsilk;
+    cursor: pointer;
+    width: 50%;
 }

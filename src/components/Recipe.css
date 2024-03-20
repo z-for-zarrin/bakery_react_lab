@@ -1,0 +1,8 @@
+.recipe {
+    background-color: #ACF39D;
+    display: flex;
+    flex-direction: column;
+    border: #E85F5C;
+    border-style: solid;
+    padding-left: 1em;
+}

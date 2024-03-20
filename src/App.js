@@ -1,4 +1,5 @@
 import RecipeContainer from "./containers/RecipeContainer"
+import "./App.css"
 
 function App() {
   return (

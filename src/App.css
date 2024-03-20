@@ -1,0 +1,17 @@
+body {
+    background-color: #E3B5A4;;
+}
+
+h1 {
+    color: #773344;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    color: #773344;
+}

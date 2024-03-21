@@ -1,17 +1,17 @@
 import "./Recipe.css"
 
-const Recipe = ({cakeName, ingredients, price, rating, count, onButtonClick}) => {
+const Recipe = ({recipe, updateSales}) => {
 
     const handleClick = () => {
-        onButtonClick(count + 1);
+        updateSales(recipe.price);
     }
 
     return (
         <div className="recipe">
-            <h3>{cakeName}</h3>
-            <ul id="ingedients-list">Ingredients: {ingredients.join(", ")}</ul>
-            <h5>Price: £{price}, Rating: {rating}</h5>
-            <h5>Cakes sold: {count}</h5>
+            <h3>{recipe.cakeName}</h3>
+            <p id="ingedients-list">Ingredients: {recipe.ingredients.join(", ")}</p>
+            <h5>Price: £{recipe.price}, Rating: {recipe.rating}</h5>
+            {/* <h5>Cakes sold: {recipe.count}</h5> */}
             <button onClick={handleClick}>Sell cake</button>
         </div>
     );
